@@ -20,7 +20,7 @@ def open():
 @app.route('/<url>/<email>')
 def index(url,email):
      msg = Message(
-                'Hello user',
+                'Hello  user',
                 sender ='kletech_data@kletech.ac.in',
                 recipients = [email]
                )
